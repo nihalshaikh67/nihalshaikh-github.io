@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihal Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" media="screen and (max-width:1200px) "href="css/phone.css">
+<style>
+/* CSS reset */
+body{
+    font-family: 'RocknRoll One',cursive;
+    margin:0px;
+    padding:0px;
+    background:url('img/pe.jpg');
+    color:white;
+}
+.left{
+    font-family: 'RocknRoll One',cursive;
+    position:absolute;
+    left:10px;
+    top:1px;
+    /* border:2px solid red;  */
+    display:inline-block;
+    
+}
+.left img{
+    width:120px;
+    filter:invert(100%);
+    text-align: center;
+    
+}
+.left div{
+   
+    font-family: 'RocknRoll One',cursive;
+     text-align: center;
+     font-size: 15px;
+}
+.mid{
+    /* border:2px solid green;  */
+    display:block;
+   
+    width:43%;
+    margin: 20px auto;
+    font-size:17px;
+}
+.right{
+    font-family: 'RocknRoll One',cursive;
+    /* border:2px solid yellow;  */
+    display:inline-block;
+    position:absolute;
+    display: flex;
+    right:34px;
+    top:30px;
+}
+.navbar{
+    display:inline-block;
+    display: flex;
+    
+
+}
+.navbar li{
+    display:inline-block;
+   
+    color:white;
+    font:25px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:14px;
+    font:29px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color:rgb(228, 204, 204);
+    font-size: 17px;
+             
+
+} 
+.btn{
+    margin: opx 9px;
+    color:white;
+    background-color: black;
+    padding:4px 4px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}  
+.btn:hover{
+    background-color: grey;
+}
+.container{
+    /* border: 2px solid white; */
+    margin:90px 120px;
+    padding: 75px;
+    width:37%;
+    border-radius: 2px;
+    
+}
+.formgroup input{
+    font-family: 'RocknRoll One',cursive;
+    text-align:center;
+         display:block;
+         padding: 15px;
+         width:90%;
+         border-radius: 28px;
+         border:2px solid black;
+         margin:12px;
+         font-size:16px;
+         
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display:block;
+    width:99%;
+    margin:1px auto;
+
+}
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+   <div class="left">
+       <img src="img/op.png" alt="">
+      <div>Nihal's Fitness</div>
+   </div>
+        </div>
+       <!-- mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" claas="active">Home</a></li>
+                <li><a href="nihal2.html">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">FAQ's</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of Barshi Now</h1>
+        <form action="noaction.php">
+           
+            <div class="formgroup">
+                <input type="text" name=""placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name=""placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                
+                <input type="tel" name=""placeholder="+91 Enter mobile Number">
+            </div>
+              <br>
+            <div>
+                <button class="btn">Submit</button> 
+              </div>  
+                   
+            
+        </form>
+    </div>
+</body>
+</html>
